@@ -51,6 +51,10 @@ export class Equipment {
   }
 
   getLevelFromBonus(bonus) {
+    console.log("getLevelFromBonus");
+    console.log(bonus);
+    console.log(this.bonusBase);
+    console.log(this.bonusInc);
     return Math.round((bonus - this.bonusBase) / this.bonusInc);
   }
 }
@@ -70,5 +74,6 @@ export function loadEquipmentInfo(callback) {
       );
     }
     callback(true);
+    console.log("Done loading EquipmentInfo");
   });
 }

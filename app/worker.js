@@ -16,6 +16,8 @@ import { loadPetInfo } from './util/Pet';
 import { loadPlayerImprovementInfo } from './util/PlayerImprovementBonus';
 import { loadSkillInfo } from './util/Skill';
 
+console.log("lakjsldkjflkjalsdkjf in worker");
+
 loadArtifactInfo(() => {});
 loadEquipmentInfo(() => {});
 loadHeroInfo(() => {});

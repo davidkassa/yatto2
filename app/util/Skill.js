@@ -124,5 +124,6 @@ export function loadSkillInfo(callback) {
       );
     }
     callback(true);
+    console.log("Done loading SkillInfo");
   });
 }

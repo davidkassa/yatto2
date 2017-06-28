@@ -75,5 +75,6 @@ export function loadPetInfo(callback) {
       );
     }
     callback(true);
+    console.log("Done loading PetInfo");
   });
 }
